@@ -15,31 +15,31 @@ O objetivo deste projeto foi desenvolver uma API Web em ASP.NET Core para import
 
 
 ## :1234: Passos para executar a API em C# 
-1. Clonar o repositório
+1. Clonar o repositório:
    ```
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
    ```
-2. Configurar o banco de dados no SQL Server
-   - Crie um banco de dados
+2. Configurar o banco de dados no SQL Server.
+   - Crie um banco de dados.
    - Altere a string de conexão em `appsettings.json`:
    ```
    "ConnectionStrings": {
       "DefaultConnection": "Server={NomeServidor};Database={NomeBancoDeDados};Trusted_Connection=True;"
     }
    ```
-3. Executar as migrações para criar o banco de dados
+3. Executar as migrações para criar o banco de dados:
    ```
    dotnet ef database update
    ```
-4. Iniciar a API
+4. Iniciar a API:
    ```
    dotnet run
    ```
- 5. Url disponível em: `http://localhost:5250/Pessoas`
+ 5. Url disponível em: `http://localhost:5250/Pessoas`.
 
 ## :1234: Passos para executar o cliente em Python
-1. Instalar o Python (caso não tenha instalado)
+1. Instalar o Python (caso não tenha instalado).
 2. Instalar a biblioteca `resquests`:
    ```
    pip install requests
@@ -52,7 +52,7 @@ O objetivo deste projeto foi desenvolver uma API Web em ASP.NET Core para import
 
 ## :phone: Exemplos de chamadas e respostas da API
 :one: Importar um CSV para o Banco de Dados
-- Requisição: `POST /Pessoas/importar`
+- Requisição: `POST /Pessoas/importar`.
 - Corpo (arquivo CSV):
   ```
   Id,Nome,Idade,Cidade,Profissao
@@ -72,7 +72,7 @@ O objetivo deste projeto foi desenvolver uma API Web em ASP.NET Core para import
   "O arquivo foi importado com sucesso"
   ```
 :two: Buscar uma Pessoa pelo ID
-- Requisição: `GET /Pessoas/2`
+- Requisição: `GET /Pessoas/2`.
 - Resposta:
   ```
   {
