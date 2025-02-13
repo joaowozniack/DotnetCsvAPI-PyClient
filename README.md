@@ -27,3 +27,6 @@ O objetivo deste projeto foi desenvolver uma API Web em ASP.NET Core para import
 4. Inserir um ID para buscar registro na API
 
 ## Exemplos de chamadas e respostas da API
+:one: Importar um CSV para o Banco de Dados
+:two: Buscar uma Pessoa pelo ID
+:three: Saída do Cliente em Python
