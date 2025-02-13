@@ -8,7 +8,7 @@ O objetivo deste projeto foi desenvolver uma API Web em ASP.NET Core para import
 - **Banco de dados:** SQL Server (Entity Framework Core)
 - **Cliente:** Python (requests)
 
-<img align="center" alt="Joao-Csharp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" /> ## Passos para executar a API em C#
-
+## Passos para executar a API em C# 
+<img align="center" alt="Joao-Csharp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
 
 ## Passos para executar o cliente em Python
