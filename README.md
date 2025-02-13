@@ -8,7 +8,18 @@ O objetivo deste projeto foi desenvolver uma API Web em ASP.NET Core para import
 - **Banco de dados:** SQL Server (Entity Framework Core)
 - **Cliente:** Python (requests)
 
-## Passos para executar a API em C# 
 <img align="center" alt="Joao-Csharp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+## Passos para executar a API em C# 
+1. Clonar o repositório
+2. Configurar o banco de dados no SQL Server
+3. Executar as migrações para criar o banco de dados
+4. Iniciar a API
 
+<img align="center" alt="Joao-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
 ## Passos para executar o cliente em Python
+1. Intalar o Python (caso não tenha instalado)
+2. Instalar a biblioteca `resquests`
+3. Executar o script Python
+4. Inserir um ID para buscar registro na API
+
+## Exemplos de chamadas e respostas da API
