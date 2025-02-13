@@ -38,7 +38,7 @@ O objetivo deste projeto foi desenvolver uma API Web em ASP.NET Core para import
    ```
  5. Url disponível em: `http://localhost:5250/Pessoas`
 
-:1234: ## Passos para executar o cliente em Python
+## :1234: Passos para executar o cliente em Python
 1. Instalar o Python (caso não tenha instalado)
 2. Instalar a biblioteca `resquests`:
    ```
