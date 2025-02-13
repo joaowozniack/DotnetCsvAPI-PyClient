@@ -14,7 +14,7 @@ O objetivo deste projeto foi desenvolver uma API Web em ASP.NET Core para import
 </div>
 
 
-:1234: ## Passos para executar a API em C# 
+## :1234: Passos para executar a API em C# 
 1. Clonar o repositório
    ```
    git clone https://github.com/seu-usuario/seu-repositorio.git
@@ -50,7 +50,7 @@ O objetivo deste projeto foi desenvolver uma API Web em ASP.NET Core para import
    ```
 4. Inserir um ID para buscar registro na API.
 
-:phone: ## Exemplos de chamadas e respostas da API
+## :phone: Exemplos de chamadas e respostas da API
 :one: Importar um CSV para o Banco de Dados
 - Requisição: `POST /Pessoas/importar`
 - Corpo (arquivo CSV):
